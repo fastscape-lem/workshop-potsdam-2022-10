@@ -14,6 +14,8 @@ dependencies:
   - ipyfastscape
   - jupyterlab>=3
   - ipykernel
+  - ipyleaflet
+  - ipytone
   - ipython
   - matplotlib-base
   - graphviz
@@ -23,9 +25,13 @@ dependencies:
   - hvplot
   - datashader
   - xarray-spatial
+  - pooch
+  - pystac-client
+  - rioxarray
   - zarr
   - tqdm
   - scipy
   - pip
   - pip:
       - git+https://github.com/fastscape-lem/fastscape
+      - planetary_computer
